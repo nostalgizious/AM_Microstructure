@@ -21,4 +21,4 @@ The implementation was developed by Ferdinand O. Schnell for the TUM bachelor’
 
 Spatial and temporal interpolation transfers FEM temperatures to the cell centres. The CA updates the state of each cell, creates nuclei according to undercooling and advances existing grains into the solidifying region. Grain identity and orientation persist across timesteps, allowing successive thermal cycles to act on the evolving microstructure.
 
-Grain postprocessing provides size, aspect ratio and orientation descriptors for a microstructure-dependent fracture model. The [research guide](research.md) presents the thesis studies, and the [complete thesis](assets/publications/Ferdinand_O_Schnell_BA.pdf) describes the methods and results.
+Grain postprocessing provides size, aspect ratio and orientation descriptors for a microstructure-dependent fracture model. The [research guide](research.md) presents the thesis studies, and the [complete thesis](assets/publications/FSchnell_BAThesis_AMMicrostructure.pdf) describes the methods and results.

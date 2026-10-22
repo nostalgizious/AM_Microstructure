@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / "website/dist"
 DIRECTORIES = ("src", "examples", "integrations", "data", "test", "analysis", "demo", "docs", "tools", "website", ".github")
 FILES = ("README.md", "Project.toml", "CITATION.cff", ".gitignore", "mkdocs.yml", "requirements-docs.txt", "requirements-figures.txt", "references/README.md",
-         "docs/assets/publications/Ferdinand_O_Schnell_BA.pdf")
+         "docs/assets/publications/FSchnell_BAThesis_AMMicrostructure.pdf")
 
 
 def source_files():

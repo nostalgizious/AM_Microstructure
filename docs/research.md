@@ -28,7 +28,7 @@ The FEM temperature interval is subdivided into CA steps. Each step updates cell
 
 ![Single-track grain growth from the melt-pool boundary with bulk nucleation disabled.](assets/research/thesis-single-track.png)
 
-*Schnell [1], Fig. 4.1, printed p. 42 / PDF p. 58. Bulk nucleation is disabled (`N0 = 0`), exposing growth from the existing melt-pool boundary. Cropped from the thesis; © 2024 Ferdinand O. Schnell.*
+*Schnell [1], Fig. 4.1, printed p. 42 / PDF p. 56. Bulk nucleation is disabled (`N0 = 0`), exposing growth from the existing melt-pool boundary. Cropped from the thesis; © 2024 Ferdinand O. Schnell.*
 
 The single-track study follows solidification from pre-existing grains at the melt-pool boundary. With bulk nucleation disabled, changes in grain structure arise through capture by the surrounding grains. The accompanying mesh study examines the effect of cell spacing and supports a 2 µm spacing for the investigated case. [1, Figs. 4.1–4.3, printed pp. 42–43]
 
@@ -36,7 +36,7 @@ The single-track study follows solidification from pre-existing grains at the me
 
 ![Multilayer grain section for the 285 W case; yellow lines indicate successive powder-bed heights.](assets/research/thesis-multilayer.png)
 
-*Schnell [1], Fig. 4.7, printed p. 46 / PDF p. 62. X–Z section for Scenario 2 at 285 W. Yellow lines mark successive powder-bed heights; circles identify local structures discussed in the thesis. Cropped; © 2024 Ferdinand O. Schnell.*
+*Schnell [1], Fig. 4.7, printed p. 46 / PDF p. 60. X–Z section for Scenario 2 at 285 W. Yellow lines mark successive powder-bed heights; circles identify local structures discussed in the thesis. Cropped; © 2024 Ferdinand O. Schnell.*
 
 Successive layers subject the existing grain structure to further heating, remelting and solidification. Grains grow across layer boundaries as new material solidifies against the preceding structure. The thesis examines local grain evolution and the effects of process conditions and nucleation parameters on the resulting grain distribution. [1, §4.2, printed pp. 44–47]
 
@@ -54,7 +54,7 @@ The work contributed to the multi-scale Inconel 718 study published by Panzer et
 
 ## References
 
-**[1] Ferdinand O. Schnell (2024).** *Simulating Grain Growth in PBF-LB/M with a Cellular Automaton Model to Determine Fracture Criticality.* Bachelor’s thesis, TUM School of Engineering and Design, Technical University of Munich. Submitted 31 May 2024. [Complete thesis (PDF)](assets/publications/Ferdinand_O_Schnell_BA.pdf).
+**[1] Ferdinand O. Schnell (2024).** *Simulating Grain Growth in PBF-LB/M with a Cellular Automaton Model to Determine Fracture Criticality.* Bachelor’s thesis, TUM School of Engineering and Design, Technical University of Munich. Submitted 31 May 2024. [Complete thesis (PDF)](assets/publications/FSchnell_BAThesis_AMMicrostructure.pdf).
 
 **[2] Hannes Panzer, Saeed Maleksaeedi, Hamidreza Aghajani, Mohsen K. Keshavarz, Fangzhou Li, Ferdinand Schnell, Kai-Uwe Beuerlein, Felix Riegger, and Michael F. Zaeh (2026).** *Experimentally informed physics-based multi-scale simulation for microstructure tailoring and cracking behavior modification in Inconel 718 during PBF-LB/M.* **Materials & Design 269**, 116714. [doi:10.1016/j.matdes.2026.116714](https://doi.org/10.1016/j.matdes.2026.116714).
 

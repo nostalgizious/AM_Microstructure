@@ -17,7 +17,7 @@
       "sha256": "cc8af687bcc4b246277b535454e204c1b22a8b6c519a25eb229ecb0a7518618b"
     },
     "thesis": {
-      "filename": "Ferdinand_O_Schnell_BA.pdf",
+      "filename": "FSchnell_BAThesis_AMMicrostructure.pdf",
       "title": "Simulating Grain Growth in PBF-LB/M with a Cellular Automaton Model to Determine Fracture Criticality",
       "authors": "Ferdinand O. Schnell",
       "year": 2024,
@@ -27,7 +27,7 @@
       "license_url": null,
       "license_evidence": "The author requested inclusion of the full thesis and figure excerpts in this repository and website. The PDF does not declare a Creative Commons license.",
       "attribution": "Ferdinand O. Schnell (2024), bachelor's thesis, Technical University of Munich. Cropped from the thesis; content unchanged. No general reuse license declared.",
-      "sha256": "b508ca50729ebbcdc86137500ccc7d4deb6433a0b9fc0cc85fcb64f9c28a1244"
+      "sha256": "aa32b5b7401b225594cc42ccdb388d704849110cbd4afadd913b8a38b4799f51"
     }
   },
   "figures": [
@@ -155,7 +155,7 @@
       "id": "thesis-single-track",
       "source": "thesis",
       "figure": "4.1",
-      "pdf_page": 58,
+      "pdf_page": 56,
       "printed_page": "42",
       "crop_points": {
         "x": 102,
@@ -185,7 +185,7 @@
       "id": "thesis-multilayer",
       "source": "thesis",
       "figure": "4.7",
-      "pdf_page": 62,
+      "pdf_page": 60,
       "printed_page": "46",
       "crop_points": {
         "x": 90,

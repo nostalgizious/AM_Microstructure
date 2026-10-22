@@ -4,7 +4,7 @@
 
 Developed by Ferdinand O. Schnell for his 2024 bachelor’s thesis at the Technical University of Munich, this Julia implementation follows nucleation, melting, remelting and competitive grain growth from finite element temperature histories. Decentered octahedra represent orientation-dependent growth, while grain postprocessing extracts size, aspect ratio and orientation for a microstructure-dependent fracture model.
 
-[Read the thesis](docs/assets/publications/Ferdinand_O_Schnell_BA.pdf) · [Research and results](docs/research.md) · [Documentation](docs/index.md)
+[Read the thesis](docs/assets/publications/FSchnell_BAThesis_AMMicrostructure.pdf) · [Research and results](docs/research.md) · [Documentation](docs/index.md)
 
 ![Grain and temperature evolution through two heating passes](docs/assets/demo/fem-grain-evolution.svg)
 
