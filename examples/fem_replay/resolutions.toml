@@ -1,0 +1,18 @@
+# Refine CA sampling only; retain the archived FEM mesh, fields and physical domain.
+[quick]
+spatial_refinement = 1
+temporal_refinement = 1
+
+[fine]
+spatial_refinement = 4
+temporal_refinement = 8
+substrate_grains = 32
+slice_stride = 4
+
+# Explicitly budgeted large run: 6,635,520 cells on the bundled physical domain.
+[showcase]
+spatial_refinement = 12
+temporal_refinement = 8
+substrate_grains = 64
+slice_stride = 4
+max_cells = 7000000

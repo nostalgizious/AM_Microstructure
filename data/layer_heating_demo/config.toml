@@ -1,0 +1,29 @@
+ca_initialization = "solid-substrate"
+dt_ms = 0.02
+seed = 2026
+snapshot_step = 20
+steps = 100
+
+[grid]
+dx_mm = 0.002
+nx = 32
+ny = 6
+nz = 20
+substrate_grains = 8
+
+[material]
+C_0 = 0.5
+D_L = 1.6e-9
+Gamma = 3.65e-7
+k_0 = 0.48
+liquidus_K = 1609
+m_L = -10.5
+nucleation_N0 = 20000.0
+nucleation_mean_K = 12.0
+nucleation_sigma_K = 6.0
+solidus_K = 1533
+
+[thermal]
+cooling_rate_K_per_ms = 50.0
+gradient_K_per_mm = 600.0
+superheat_K = 10.0

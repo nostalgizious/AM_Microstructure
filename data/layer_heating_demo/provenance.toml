@@ -1,0 +1,20 @@
+archived_utc = "2026-10-22"
+ascentam_reference = "test/quasisplit.inp:194-234; test/lbmsim.inp:182-217"
+description = "Actual layer-top heating/release/cooling; 64 DC3D8 elements, 135 nodes; AscentAM test-deck pattern with illustrative values"
+generated_unix_s = 1.792683307869836e9
+heating_model = "Prescribed layer-top temperature; no moving source"
+julia_version = "1.13.2"
+schema_version = 1
+solver = "CalculiX CrunchiX"
+solver_binary_sha256 = "31be21fc2f0902bd9a05acc2651dbac6dc2a2573dabbf235e39a38cb6f458862"
+solver_command = "ccx -i thermal"
+solver_version = "2.23"
+source_kind = "calculix"
+thermal_case = "layer-heating"
+
+[sha256]
+"config.toml" = "728d9ac92ff7a8e66dc9083fc41cc95eca638de2ddb877e9c8375813089cd78d"
+"initial.toml" = "5db6ffe48e2ce1f61bc13d410fc1c68ac7c96206f481941ed06c661b6896d35f"
+"mesh.toml" = "86e8bcf6301f4c2d9011c511a350f6ce0032ce51fe4c9a2954356550c56a3c22"
+"thermal.dat" = "799e75f4180421118b6efa2f915336a157afffd40b27ba8efc4d89c14a2fc338"
+"thermal.inp" = "33790be13a9212e2ab40becee8b155703bd99b4be409731b0236915f816917cd"

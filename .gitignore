@@ -1,0 +1,22 @@
+# Generated simulation results and local environments
+/output/
+/tmp/
+/.julia/
+/.venv/
+__pycache__/
+*.jl.cov
+*.jl.mem
+.DS_Store
+
+# Supplied local reference documents, not part of the runnable distribution.
+# The thesis title page includes a personal street address.
+/Ferdinand_O_Schnell_BA.pdf
+/Code_Handover_Microstructure Simulation Code for CalculiX CrunchiX.pdf
+
+# Website build and private local reference inputs
+/website/dist/
+/.venv-docs/
+/.venv-figures/
+/references/local/
+/*.pdf
+/*.deb

@@ -1,0 +1,12 @@
+:root { --paper: #f5f3eb; --ink: #23332c; --green: #3e5945; }
+.wy-nav-content-wrap, .wy-nav-content { background: var(--paper); }
+.wy-nav-content { max-width: 1050px; color: var(--ink); }
+.wy-side-nav-search { background: var(--green); }
+.wy-nav-side { background: #25362d; }
+.wy-menu-vertical a { color: #dce4d6; }
+.rst-content h1, .rst-content h2, .rst-content h3 { font-family: Georgia, serif; font-weight: normal; }
+.rst-content a { color: var(--green); }
+.rst-content img { max-width: 100%; height: auto; }
+.rst-content pre { overflow-x: auto; }
+.rst-content p, .rst-content li { line-height: 1.7; }
+@media (max-width: 768px) { .wy-nav-top { background: var(--green); } }

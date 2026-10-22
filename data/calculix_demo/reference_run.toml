@@ -1,0 +1,12 @@
+assigned_fraction = 1.0
+cells = 576
+finite_octahedra = true
+octahedral_captures = 528
+solver_executed = true
+solver_snapshots = 100
+solver_version = "2.23"
+steps = 100
+temperature_max_K = 1649.0
+temperature_min_K = 1500.0
+thermal_source = "calculix"
+time_ms = 2.0000000000000013

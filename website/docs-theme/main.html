@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block site_name %}
+<a href="{{ '../index.html' | url }}">AM Microstructure</a>
+{% endblock %}
+{% block site_nav %}
+<ul><li class="toctree-l1"><a href="{{ '../index.html' | url }}">Research website ↗</a></li></ul>
+{{ super() }}
+{% endblock %}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Ferdinand O. Schnell's research on cellular automaton modelling of grain growth in PBF-LB/M: methods, thesis results and interactive grain-growth simulations.">
+  <meta name="theme-color" content="#f5f3eb">
+  <title>Cellular automaton modelling of grain growth in PBF-LB/M — Ferdinand O. Schnell</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/demo-data.js" defer></script>
+  <script src="assets/evolution-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header wrap">
+  <a class="brand" href="./">AM<span class="brand-light">Microstructure</span></a>
+  <nav aria-label="Main navigation"><a href="#pipeline">Methods</a><a href="#research">Results</a><a href="#explore">Grain evolution</a><a href="docs/index.html">Documentation</a></nav>
+</header>
+<main id="main">
+<section class="hero wrap" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow">COMPUTATIONAL MATERIALS SCIENCE · BACHELOR’S THESIS, 2024</p>
+    <h1 id="hero-title">Cellular automaton modelling of grain growth in PBF-LB/M</h1>
+    <p class="author"><strong>Ferdinand O. Schnell</strong><br>Technical University of Munich<br>Institute for Machine Tools and Industrial Management (iwb)</p>
+    <p class="hero-description">The microstructure of a part manufactured by laser powder bed fusion influences its mechanical properties and fracture behaviour. This work implements a three-dimensional cellular automaton to model grain evolution from finite element temperature histories and to extract microstructural parameters for a fracture model <a class="citation" href="#ref-thesis">[1]</a>.</p>
+    <p class="hero-description">The Julia implementation represents nucleation, melting, remelting and competitive grain growth using decentered octahedra. It was developed within a thermo-mechanical simulation workflow and contributed to a subsequent multi-scale study of Inconel 718 <a class="citation" href="#ref-paper">[2]</a>.</p>
+    <div class="actions"><a class="text-link" href="assets/publications/Ferdinand_O_Schnell_BA.pdf">Thesis PDF</a><a class="text-link" href="docs/research.html">Thesis methods and results</a><a class="text-link" href="https://doi.org/10.1016/j.matdes.2026.116714">Related publication ↗</a></div>
+  </div>
+  <figure class="hero-figure">
+    <div class="figure-topline"><span>SIMULATED GRAIN FIELD</span><span>3D CELLULAR AUTOMATON</span></div>
+    <div class="volume-wrap"><canvas id="volume" width="1100" height="900" role="img" aria-label="Isometric view of the final 384 by 72 by 240 cell grain field from the CalculiX heating and cooling demonstration."></canvas><img class="canvas-fallback" src="assets/demo/grain-volume.svg" alt="Static isometric view of the final simulated three-dimensional grain field."></div>
+    <figcaption><span>64 × 12 × 40 µm · 0.167 µm cells</span><span>t = 4 ms · Colours identify grains.</span></figcaption>
+  </figure>
+</section>
+<div class="abstract-note wrap"><p><strong>Thesis.</strong> <em>Simulating Grain Growth in PBF-LB/M with a Cellular Automaton Model to Determine Fracture Criticality.</em> Submitted 31 May 2024; supervised by Hannes Panzer <a class="citation" href="#ref-thesis">[1]</a>. The work combines grain-growth modelling, finite element coupling and microstructure analysis for fracture modelling.</p></div>
+
+<section id="pipeline" class="section wrap">
+  <div class="section-heading"><p class="eyebrow">1 / METHODS AND CONTRIBUTION</p><h2>Microstructure within a multi-scale simulation</h2><p>The cellular automaton connects finite element temperature histories with local grain structure. Grain size, morphology and orientation provide the link to a microstructure-dependent fracture model <a class="citation" href="#ref-thesis">[1]</a>.</p></div>
+  <div class="pipeline" aria-label="Temperature, microstructure and fracture-modelling workflow">
+    <article><span class="step-number">MACRO SCALE</span><h3>Thermo-mechanical analysis</h3><p>Finite element calculations provide temperature histories and residual stresses across the part.</p><span class="flow-label">Local geometry and boundary conditions →</span></article>
+    <article><span class="step-number">MESO SCALE</span><h3>Local thermal history</h3><p>A refined thermal model resolves heating and cooling associated with the laser passes.</p><span class="flow-label">Nodal temperature histories →</span></article>
+    <article class="pipeline-focus"><span class="step-number">MICRO SCALE</span><h3>Cellular automaton</h3><p>Interpolated temperatures drive nucleation, remelting and grain growth on a regular Cartesian grid.</p><span class="flow-label">Grain size, morphology and orientation →</span></article>
+    <article><span class="step-number">MICROSTRUCTURE FEEDBACK</span><h3>Fracture-model extension</h3><p>Microstructural descriptors inform the assessment of process-dependent cracking susceptibility.</p><span class="flow-label">Comparison of process conditions</span></article>
+  </div>
+  <div class="pipeline-note"><p><strong>Contribution of the thesis.</strong> Implementation of the Julia CA and FEM interface, grain-parameter extraction, verification studies, and a proposed microstructure-dependent extension of the Johnson–Cook fracture model.</p><a href="docs/research.html#software-contribution">Implementation and contribution</a></div>
+  <details class="source-figure"><summary>Published multi-scale workflow <span>Panzer et al. (2026), Fig. 2</span></summary><figure><a href="assets/research/paper-pipeline.png" data-zoom><img src="assets/research/paper-pipeline.png" alt="Published macro, meso, micro, and cracking-feedback workflow." loading="lazy" width="1213" height="733"></a><figcaption>Fig. 1. Multi-scale workflow in Panzer et al. <a href="#ref-paper">[2]</a>, original Fig. 2, p. 4. <a href="https://doi.org/10.1016/j.matdes.2026.116714">Source</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Cropped; figure content unchanged.</figcaption></figure></details>
+  <div class="method-text"><h3>Grain growth and temperature transfer</h3><p>The original implementation supports both a coupled calculation and standalone execution using stored nodal temperatures. Temperatures are interpolated from the FEM mesh to the CA cell centres. Within each thermal interval, the CA updates cell states, nucleates grains according to the undercooling distribution, and advances orientation-dependent growth envelopes.</p><p>The decentered-octahedron algorithm of Gandin and Rappaz <a class="citation" href="#ref-gandin">[3]</a> represents the envelope of dendritic growth. When an envelope contains an eligible neighbouring cell centre, the cell inherits the grain identity and orientation. The thesis also implements an active region near the current build height and a select–test–resolve–update procedure for parallel state updates. These methods and the subsequent grain postprocessing are described in <a class="citation" href="#ref-thesis">[1, §§3.1–3.2]</a>.</p><blockquote>“Methods to extract the relevant microstructural parameters were developed, and a fracture model incorporating this information devised.”<cite>Schnell <a href="#ref-thesis">[1]</a>, Abstract.</cite></blockquote></div>
+</section>
+
+<section id="research" class="section wrap research-section">
+  <div class="section-heading"><p class="eyebrow">2 / SELECTED RESEARCH RESULTS</p><h2>Single-track and multilayer grain growth</h2><p>The thesis examines grain capture at the melt-pool boundary, the influence of cell spacing and the evolution of microstructure through successive layers.</p></div>
+  <article class="research-story thesis-story">
+    <div class="story-rail"><span class="year">2024</span><p>BACHELOR’S THESIS<br>FERDINAND O. SCHNELL</p></div>
+    <div class="story-content"><h3>Single-track growth and multilayer microstructure</h3><p>Controlled single-track calculations were used to examine grain capture and growth from the melt-pool boundary. With bulk nucleation disabled, existing grains grow into the solidifying region. The thesis also reports a mesh study supporting a 2 µm cell spacing for the investigated case (Fig. 4.3, printed p. 43).</p>
+      <figure class="paper-figure"><a href="assets/research/thesis-single-track.png" data-zoom><img src="assets/research/thesis-single-track.png" alt="Single melt track from the thesis: without bulk nucleation, grains grow inward from the existing melt-pool boundary." loading="lazy" width="1367" height="300"></a><figcaption>Fig. 2. Single-track verification with bulk nucleation disabled, N₀ = 0. Schnell <a href="#ref-thesis">[1]</a>, original Fig. 4.1, printed p. 42 / PDF p. 58. Cropped from the thesis.</figcaption></figure>
+      <div class="thesis-detail"><figure class="paper-figure"><a href="assets/research/thesis-multilayer.png" data-zoom><img src="assets/research/thesis-multilayer.png" alt="Thesis multilayer grain section with yellow layer boundaries and circles marking local grain structures discussed in the thesis." loading="lazy" width="1400" height="800"></a><figcaption>Fig. 3. Multilayer section for the 285 W case. Yellow lines indicate layer boundaries. Schnell <a href="#ref-thesis">[1]</a>, original Fig. 4.7, printed p. 46 / PDF p. 62. Cropped.</figcaption></figure><div><h4>Grains across successive layers</h4><p>Successive heating cycles remelt parts of the existing structure. During cooling, surviving grains grow into the solidifying region and can extend across layer boundaries. The thesis follows these transitions in multilayer calculations and examines the resulting grain distributions.</p><p>Postprocessing extracts grain size, aspect ratio and orientation. These descriptors enter a proposed Johnson–Cook fracture-model extension that accounts for grain size and loading direction relative to elongated grains.</p><p class="citation-note">Schnell <a href="#ref-thesis">[1]</a>, §§4.2–4.3 and 5.1–5.2, printed pp. 44–54.</p></div></div>
+    </div>
+  </article>
+  <article id="publication" class="research-story publication-story">
+    <div class="story-rail"><span class="year">2026</span><p>FOLLOW-UP STUDY<br>PANZER ET AL.</p><a class="text-link" href="https://doi.org/10.1016/j.matdes.2026.116714">Publication ↗</a></div>
+    <div class="story-content"><h3>Microstructure and cracking in Inconel 718</h3><p>These results come from the follow-up paper by Panzer et al. <a href="#ref-paper">[2]</a>, which extends the code and model beyond the version included in this repository.</p>
+      <div class="publication-grid"><figure class="paper-figure"><a href="assets/research/paper-microstructure-comparison.png" data-zoom><img src="assets/research/paper-microstructure-comparison.png" alt="Measured EBSD maps and pole figures for PP0 and PP2, followed by simulated grain maps." loading="lazy" width="1387" height="1387"></a><figcaption>Fig. 4. Measured and simulated microstructures. Panzer et al. <a href="#ref-paper">[2]</a>, original Fig. 10, p. 10. Panels (a–d): EBSD maps and pole figures; (e–f): simulated maps. Scale bars: 100 µm. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; cropped.</figcaption></figure><div class="publication-findings"><h4>Grain morphology and crack resistance</h4><p>The study combines experimental characterisation with multi-scale simulation. Across the investigated process conditions, simulated grain size and aspect ratio show maximum deviations of 20% and 16% from measurements, respectively.</p><p>A representative experimental comparison reports approximately 16% shorter mean crack length for PP3 (350 W, without hatch rotation) than for PP0 (285 W, rotating hatch).</p><p class="citation-note">Panzer et al. <a href="#ref-paper">[2]</a>, §§4.1–4.2, pp. 10–12.</p></div></div>
+      <figure class="paper-figure stats-figure"><a href="assets/research/paper-grain-statistics.png" data-zoom><img src="assets/research/paper-grain-statistics.png" alt="Measured and simulated grain size, aspect ratio and effective Schmid factor for process conditions PP0 to PP3." loading="lazy" width="1227" height="493"></a><figcaption>Fig. 5. Experimental and simulated grain size, aspect ratio and effective Schmid factor. Panzer et al. <a href="#ref-paper">[2]</a>, original Fig. 11, p. 11. <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; cropped.</figcaption></figure>
+    </div>
+  </article>
+</section>
+
+<section id="explore" class="explore-section">
+  <div class="wrap explore-grid">
+    <div class="explore-copy"><p class="eyebrow">3 / GRAIN EVOLUTION</p><h2>Melting and competitive regrowth</h2><p>Two successive heating cycles act on a seeded substrate. The first creates a melt pool; as it cools, surviving grains advance into the solidifying region. The second cycle shifts the heated region and remelts part of the newly formed structure.</p><p>Growth depends on each grain’s crystallographic orientation and competition with its neighbours. The resulting boundaries record how the growth fronts meet within the melt pool.</p><p>Explore the heated and cooled states of both passes, switch between grain identity and temperature, and inspect sections through the three-dimensional volume.</p><img class="capture-diagram" src="assets/capture.svg" alt="An expanding octahedral envelope captures an adjacent cell centre and transfers its grain identity." width="460" height="180" loading="lazy"></div>
+    <div class="viewer">
+      <div class="viewer-heading"><span>GRAIN STRUCTURE AND TEMPERATURE</span><output id="viewer-time">4.00 ms</output></div>
+      <div class="stage-controls" role="group" aria-label="Saved simulation stage"><button data-stage="0" aria-pressed="false">Initial</button><button data-stage="1" aria-pressed="false">Pass 1: heated</button><button data-stage="2" aria-pressed="false">Pass 1: cooled</button><button data-stage="3" aria-pressed="false">Pass 2: heated</button><button data-stage="4" aria-pressed="true">Pass 2: cooled</button></div>
+      <div class="slice-wrap"><canvas id="slice" width="960" height="600" role="img" aria-label="Interactive x-z slice through the selected saved simulation state."></canvas><output id="cell-tooltip" aria-live="polite">Move across the slice to inspect a cell</output></div>
+      <div class="viewer-settings"><label>Slice y <input id="slice-position" type="range" min="0" max="2" value="1"><output id="slice-label">5.92 µm</output></label><label>Field <select id="field"><option value="grain">Grain identity</option><option value="temperature">Temperature (K)</option></select></label></div>
+      <div class="viewer-legend"><span id="field-legend">Categorical grain colors · dark = no assigned grain</span><output id="assigned">100% assigned</output></div>
+      <p class="viewer-caveat">64 × 12 × 40 µm · 0.167 µm cell spacing. Colours identify individual grains; dark regions have no assigned grain.</p>
+      <noscript><img src="assets/demo/fem-grain-evolution.png" alt="Static grain and temperature slices at the initial state and both heated and cooled states."><p>Enable JavaScript to select stages and slices.</p></noscript>
+    </div>
+  </div>
+</section>
+
+<section id="evolution" class="section wrap">
+  <div class="section-heading"><p class="eyebrow">TIME-RESOLVED OUTPUT</p><h2>Grain evolution in a fixed 2D section</h2><p>Follow the growth fronts through a fixed section of the three-dimensional grain structure. Heating opens a remelted region; cooling allows the surrounding grains to grow into it. The second pass reshapes the boundaries formed during the first.</p></div>
+  <figure class="evolution-figure">
+    <div class="evolution-image"><span class="evolution-z">z ↑</span><img id="evolution-frame" src="assets/demo/first-cycle.png" alt="Recorded grain field after cooling of the first pass at 2 ms, in the x-z plane at y approximately 5.92 micrometres." width="768" height="480"><span class="evolution-x">x → &nbsp; 0–64 µm</span></div>
+    <div class="evolution-panel"><p class="eyebrow">GRAIN EVOLUTION · TWO THERMAL CYCLES</p><output id="evolution-time">t = 2.000 ms · step 800 / 1600</output><p id="evolution-phase">End of the first cooling interval</p><p id="evolution-statistics"></p>
+      <div class="evolution-buttons"><button id="evolution-play" type="button" aria-pressed="false">Play</button><button id="evolution-prev" type="button" aria-label="Previous simulation step">← Step</button><button id="evolution-next" type="button" aria-label="Next simulation step">Step →</button></div>
+      <label for="evolution-slider">Simulation timestep</label><input id="evolution-slider" type="range" min="0" max="400" value="200" step="1" aria-describedby="evolution-time">
+      <div class="evolution-shortcuts" role="group" aria-label="Jump to simulation stage"><button type="button" data-frame-time="0">Initial</button><button type="button" data-frame-time="0.4">Pass 1: heated</button><button type="button" data-frame-time="2">Pass 1: cooled</button><button type="button" data-frame-time="2.4">Pass 2: heated</button><button type="button" data-frame-time="4">Final</button></div>
+      <label class="speed-label" for="evolution-speed">Playback speed <select id="evolution-speed"><option value="10">10 frames/s</option><option value="25" selected>25 frames/s</option><option value="50">50 frames/s</option></select></label>
+      <p class="evolution-note">Colours follow the same grains throughout both cycles. Dark cells have no assigned grain.</p>
+      <p><a id="evolution-download" href="assets/demo/first-cycle.png" download>Download section</a> · <a href="assets/demo/slice-data.jsonl.gz">Grain data</a></p>
+    </div>
+    <figcaption>Fig. 6. Grain evolution over two heating and cooling cycles. The x–z section spans 64 × 40 µm at y ≈ 5.92 µm. Total duration: 4 ms.</figcaption>
+  </figure>
+  <details class="source-figure"><summary>Grain structure and temperature <span>Initial state and both heating/cooling cycles</span></summary><figure><a href="assets/demo/fem-grain-evolution.svg" data-zoom><img src="assets/demo/fem-grain-evolution.svg" alt="Grain and temperature sections at the initial state and the heated and cooled states of both passes." loading="lazy"></a><figcaption>Fig. 7. Grain IDs and interpolated cell temperatures at 0, 0.4, 2, 2.4 and 4 ms. Cell spacing is 0.167 µm; the slice is at y ≈ 5.92 µm. Grain colors are categorical. <a href="assets/demo/fem-grain-evolution.png">PNG version</a>.</figcaption></figure></details>
+  <figure class="paper-figure thermal-history"><a href="assets/demo/fem-thermal-history.svg" data-zoom><img src="assets/demo/fem-thermal-history.svg" alt="Computed nodal temperatures and grain assignment over two heating and cooling cycles, spanning 4 ms." loading="lazy"></a><figcaption>Fig. 8. (a) Temperature histories, with solidus and liquidus marked by horizontal lines. (b) Fraction of cells with an assigned grain identity. Shaded intervals indicate heating; grain assignment recovers during solidification. <a href="assets/demo/fem-thermal-history.png">PNG version</a>.</figcaption></figure>
+</section>
+<section id="run" class="run-section"><div class="wrap run-grid"><div><p class="eyebrow">4 / SIMULATION</p><h2>Run the grain-growth model</h2><p>Explore the two-pass calculation or supply a temperature history from your FEM model. The simulation retains the grain structure between timesteps and exports grain identities, orientations and thermal fields.</p><div class="run-links"><a href="docs/quickstart.html">Run a simulation</a><a href="docs/fem-integration.html">FEM integration</a><a href="docs/architecture.html">Simulation API</a><a href="docs/model-scope.html">Grain-growth model</a></div></div><div class="terminal"><div class="terminal-bar"><span>TWO-PASS GRAIN EVOLUTION</span><button id="copy-command" type="button">Copy command</button></div><pre><code id="replay-command">julia --project=. --threads=8,0 examples/fem_replay/run.jl</code></pre><p>Requires Julia 1.10 or newer. Temperature histories are included.</p></div></div></section>
+<section class="closing wrap"><div><p class="eyebrow">CODE AND DOCUMENTATION</p><h2>AMMicrostructure</h2><p>Julia implementation, grain-growth studies and simulation guides.</p></div><div class="actions"><a class="text-link" href="downloads/ammicrostructure-source.zip">Source archive ↓</a><a class="text-link" href="docs/index.html">Documentation</a></div></section>
+<section id="references" class="section wrap references-section" aria-labelledby="references-title">
+  <h2 id="references-title">References</h2>
+  <ol class="bibliography">
+    <li id="ref-thesis"><strong>Ferdinand O. Schnell.</strong> <em>Simulating Grain Growth in PBF-LB/M with a Cellular Automaton Model to Determine Fracture Criticality.</em> Bachelor’s thesis, TUM School of Engineering and Design, Technical University of Munich, 31 May 2024. <a href="assets/publications/Ferdinand_O_Schnell_BA.pdf">Full thesis (PDF)</a>.</li>
+    <li id="ref-paper"><strong>Hannes Panzer, Saeed Maleksaeedi, Hamidreza Aghajani, Mohsen K. Keshavarz, Fangzhou Li, Ferdinand Schnell, Kai-Uwe Beuerlein, Felix Riegger, and Michael F. Zaeh.</strong> Experimentally informed physics-based multi-scale simulation for microstructure tailoring and cracking behavior modification in Inconel 718 during PBF-LB/M. <em>Materials &amp; Design</em> <strong>269</strong> (2026), 116714. <a href="https://doi.org/10.1016/j.matdes.2026.116714">doi:10.1016/j.matdes.2026.116714</a>.</li>
+    <li id="ref-gandin"><strong>Ch.-A. Gandin and M. Rappaz.</strong> A 3D Cellular Automaton algorithm for the prediction of dendritic grain growth. <em>Acta Materialia</em> <strong>45</strong>(5) (1997), 2187–2195. <a href="https://doi.org/10.1016/S1359-6454(96)00303-5">doi:10.1016/S1359-6454(96)00303-5</a>.</li>
+  </ol>
+</section>
+</main>
+<footer class="site-footer wrap"><p><strong>Ferdinand O. Schnell</strong><br>TUM bachelor’s thesis, 2024</p><p><a href="https://doi.org/10.1016/j.matdes.2026.116714">Panzer et al., Materials &amp; Design 269 (2026), 116714</a><br><a href="#references">References</a> · <a href="docs/research.html#references">Figure attribution</a></p><p>Paper figures © 2026 the authors, CC BY 4.0.<br>Thesis © 2024 Ferdinand O. Schnell.</p></footer>
+<dialog id="figure-dialog" aria-label="Enlarged research figure"><button class="dialog-close" aria-label="Close enlarged figure">Close ×</button><img id="dialog-image" alt=""><p id="dialog-caption"></p></dialog>
+</body>
+</html>

@@ -1,0 +1,42 @@
+site_name: AM Microstructure
+site_description: Cellular automaton modelling of grain growth in PBF-LB/M
+site_author: Ferdinand O. Schnell
+docs_dir: docs
+site_dir: website/dist/docs
+use_directory_urls: false
+strict: true
+
+theme:
+  name: readthedocs
+  custom_dir: website/docs-theme
+  highlightjs: false
+  navigation_depth: 3
+
+nav:
+  - Overview: index.md
+  - Thesis and results: research.md
+  - Grain-growth model: model-scope.md
+  - Simulation figures: figures.md
+  - Run a simulation: quickstart.md
+  - FEM integration: fem-integration.md
+  - Simulation API: architecture.md
+
+markdown_extensions:
+  - tables
+  - fenced_code
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+hooks:
+  - tools/mkdocs_hooks.py
+
+extra_css:
+  - stylesheets/research.css
+
+validation:
+  links:
+    not_found: warn
+    anchors: warn

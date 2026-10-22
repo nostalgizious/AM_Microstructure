@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "Please cite the related article for the research and identify this repository separately when using this thesis-code extract."
+title: "AMMicrostructure: Julia cellular-automaton grain-growth thesis extract"
+type: software
+authors:
+  - family-names: Schnell
+    given-names: Ferdinand O.
+abstract: "A standalone demonstration of a Julia cellular automaton for microstructure evolution, extracted from Ferdinand O. Schnell's 2024 bachelor thesis at TUM."
+keywords:
+  - cellular automaton
+  - microstructure
+  - grain growth
+  - additive manufacturing
+  - Julia
+preferred-citation:
+  type: article
+  title: "Experimentally informed physics-based multi-scale simulation for microstructure tailoring and cracking behavior modification in Inconel 718 during PBF-LB/M"
+  authors:
+    - family-names: Panzer
+      given-names: Hannes
+    - family-names: Maleksaeedi
+      given-names: Saeed
+    - family-names: Aghajani
+      given-names: Hamidreza
+    - family-names: Keshavarz
+      given-names: Mohsen K.
+    - family-names: Li
+      given-names: Fangzhou
+    - family-names: Schnell
+      given-names: Ferdinand
+    - family-names: Beuerlein
+      given-names: Kai-Uwe
+    - family-names: Riegger
+      given-names: Felix
+    - family-names: Zaeh
+      given-names: Michael F.
+  journal: "Materials & Design"
+  volume: "269"
+  start: "116714"
+  year: 2026
+  month: 9
+  doi: "10.1016/j.matdes.2026.116714"
+  url: "https://doi.org/10.1016/j.matdes.2026.116714"

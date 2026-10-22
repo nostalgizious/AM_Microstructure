@@ -1,0 +1,17 @@
+description = "Two actual localized top-heating/release/cooling cycles; 256 DC3D8 elements, 459 nodes; Gaussian top temperature centered at 24 and 40 micrometres, sigma 10 micrometres; prescribed stationary pulses, no moving laser"
+generated_unix_s = 1.792686766876658e9
+julia_version = "1.13.2"
+schema_version = 1
+solver = "CalculiX CrunchiX"
+solver_binary_sha256 = "31be21fc2f0902bd9a05acc2651dbac6dc2a2573dabbf235e39a38cb6f458862"
+solver_command = "ccx -i thermal"
+solver_version = "2.23"
+source_kind = "calculix"
+thermal_case = "two-pass-heating"
+
+[sha256]
+"config.toml" = "92cb5e4f4dcd4fc29824e7ab7f0a072de2ee365a005d7849f36ca400f9a640e6"
+"initial.toml" = "9bd2f08921157f41bd451e0d7f04209f236a17b315ded99ecbdc0fef9bf83cad"
+"mesh.toml" = "a6fbb77b18d987c46907294fc4065dd6edd499901717345547029d68dbc43059"
+"thermal.dat" = "14ea9aa5bd5560b070880b101d6c292fc7fb647df32716e90f43180c335302a8"
+"thermal.inp" = "6acb8d06c09c6f2889f6a295d800ac7f7149a967f80951207d53c3436db3eee7"

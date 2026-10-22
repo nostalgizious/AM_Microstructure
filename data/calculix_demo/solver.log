@@ -1,0 +1,4476 @@
+
+************************************************************
+
+CalculiX Version 2.23, Copyright(C) 1998-2025 Guido Dhondt
+CalculiX comes with ABSOLUTELY NO WARRANTY. This is free
+software, and you are welcome to redistribute it under
+certain conditions, see gpl.htm
+
+************************************************************
+
+You are using an executable made on Sun Oct 19 18:23:34 CEST 2025
+ Decascading the MPC's
+
+ Determining the structure of the matrix:
+ Using up to 1 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 27
+ number of nonzero lower triangular matrix elements
+ 158
+
+ increment 1 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=0.000000e+00
+ actual step time=2.000000e-05
+ actual total time=2.000000e-05
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001844
+ time avg. flux= 0.001844
+ largest residual flux= 0.004368 in node 14 and dof 0
+ largest increment of temp= 8.600315e+01
+ largest correction to temp= 8.600315e+01 in node 13 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001844
+ time avg. flux= 0.001844
+ largest residual flux= 0.000000 in node 19 and dof 0
+ largest increment of temp= 8.600315e+01
+ largest correction to temp= 2.927088e-13 in node 27 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 2 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=2.000000e-05
+ actual step time=4.000000e-05
+ actual total time=4.000000e-05
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001825
+ time avg. flux= 0.001835
+ largest residual flux= 0.001256 in node 23 and dof 0
+ largest increment of temp= 2.026531e+01
+ largest correction to temp= 2.026531e+01 in node 25 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001825
+ time avg. flux= 0.001835
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 2.026531e+01
+ largest correction to temp= 1.937483e-13 in node 30 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 3 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=4.000000e-05
+ actual step time=6.000000e-05
+ actual total time=6.000000e-05
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001807
+ time avg. flux= 0.001825
+ largest residual flux= 0.000468 in node 23 and dof 0
+ largest increment of temp= 7.596721e+00
+ largest correction to temp= 7.596721e+00 in node 22 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001807
+ time avg. flux= 0.001825
+ largest residual flux= 0.000000 in node 28 and dof 0
+ largest increment of temp= 7.596721e+00
+ largest correction to temp= 2.321355e-13 in node 31 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 4 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=6.000000e-05
+ actual step time=8.000000e-05
+ actual total time=8.000000e-05
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001788
+ time avg. flux= 0.001816
+ largest residual flux= 0.000193 in node 23 and dof 0
+ largest increment of temp= 3.093650e+00
+ largest correction to temp= 3.093650e+00 in node 20 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001788
+ time avg. flux= 0.001816
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 3.093650e+00
+ largest correction to temp= 1.744733e-13 in node 26 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 5 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=8.000000e-05
+ actual step time=1.000000e-04
+ actual total time=1.000000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001769
+ time avg. flux= 0.001807
+ largest residual flux= 0.000099 in node 23 and dof 0
+ largest increment of temp= 1.681765e+00
+ largest correction to temp= 1.681765e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001769
+ time avg. flux= 0.001807
+ largest residual flux= 0.000000 in node 11 and dof 0
+ largest increment of temp= 1.681765e+00
+ largest correction to temp= 2.157594e-13 in node 25 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 6 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.000000e-04
+ actual step time=1.200000e-04
+ actual total time=1.200000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001751
+ time avg. flux= 0.001797
+ largest residual flux= 0.000070 in node 32 and dof 0
+ largest increment of temp= 1.311140e+00
+ largest correction to temp= 1.311140e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001751
+ time avg. flux= 0.001797
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.311140e+00
+ largest correction to temp= 1.923266e-13 in node 12 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 7 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.200000e-04
+ actual step time=1.400000e-04
+ actual total time=1.400000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001732
+ time avg. flux= 0.001788
+ largest residual flux= 0.000063 in node 32 and dof 0
+ largest increment of temp= 1.183751e+00
+ largest correction to temp= 1.183751e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001732
+ time avg. flux= 0.001788
+ largest residual flux= 0.000000 in node 22 and dof 0
+ largest increment of temp= 1.183751e+00
+ largest correction to temp= 2.088305e-13 in node 19 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 8 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.400000e-04
+ actual step time=1.600000e-04
+ actual total time=1.600000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001713
+ time avg. flux= 0.001779
+ largest residual flux= 0.000060 in node 32 and dof 0
+ largest increment of temp= 1.140147e+00
+ largest correction to temp= 1.140147e+00 in node 32 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001714
+ time avg. flux= 0.001779
+ largest residual flux= 0.000000 in node 15 and dof 0
+ largest increment of temp= 1.140147e+00
+ largest correction to temp= 2.232746e-13 in node 24 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 9 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.600000e-04
+ actual step time=1.800000e-04
+ actual total time=1.800000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001695
+ time avg. flux= 0.001769
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.125239e+00
+ largest correction to temp= 1.125239e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001695
+ time avg. flux= 0.001769
+ largest residual flux= 0.000000 in node 22 and dof 0
+ largest increment of temp= 1.125239e+00
+ largest correction to temp= 2.262966e-13 in node 11 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 10 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.800000e-04
+ actual step time=2.000000e-04
+ actual total time=2.000000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001676
+ time avg. flux= 0.001760
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.120145e+00
+ largest correction to temp= 1.120145e+00 in node 30 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001676
+ time avg. flux= 0.001760
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.120145e+00
+ largest correction to temp= 2.033049e-13 in node 11 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 11 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=2.000000e-04
+ actual step time=2.200000e-04
+ actual total time=2.200000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001658
+ time avg. flux= 0.001751
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.118404e+00
+ largest correction to temp= 1.118404e+00 in node 32 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001658
+ time avg. flux= 0.001751
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.118404e+00
+ largest correction to temp= 2.669461e-13 in node 25 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 12 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=2.200000e-04
+ actual step time=2.400000e-04
+ actual total time=2.400000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001639
+ time avg. flux= 0.001741
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117809e+00
+ largest correction to temp= 1.117809e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001639
+ time avg. flux= 0.001741
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117809e+00
+ largest correction to temp= 2.711016e-13 in node 18 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 13 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=2.400000e-04
+ actual step time=2.600000e-04
+ actual total time=2.600000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001620
+ time avg. flux= 0.001732
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117606e+00
+ largest correction to temp= 1.117606e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001620
+ time avg. flux= 0.001732
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117606e+00
+ largest correction to temp= 1.403500e-13 in node 30 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 14 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=2.600000e-04
+ actual step time=2.800000e-04
+ actual total time=2.800000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001602
+ time avg. flux= 0.001723
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117536e+00
+ largest correction to temp= 1.117536e+00 in node 30 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001602
+ time avg. flux= 0.001723
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117536e+00
+ largest correction to temp= 1.951941e-13 in node 31 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 15 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=2.800000e-04
+ actual step time=3.000000e-04
+ actual total time=3.000000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001583
+ time avg. flux= 0.001713
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117512e+00
+ largest correction to temp= 1.117512e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001583
+ time avg. flux= 0.001713
+ largest residual flux= 0.000000 in node 13 and dof 0
+ largest increment of temp= 1.117512e+00
+ largest correction to temp= 3.006008e-13 in node 34 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 16 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=3.000000e-04
+ actual step time=3.200000e-04
+ actual total time=3.200000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001565
+ time avg. flux= 0.001704
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117504e+00
+ largest correction to temp= 1.117504e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001565
+ time avg. flux= 0.001704
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117504e+00
+ largest correction to temp= 2.686593e-13 in node 15 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 17 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=3.200000e-04
+ actual step time=3.400000e-04
+ actual total time=3.400000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001546
+ time avg. flux= 0.001695
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117501e+00
+ largest correction to temp= 1.117501e+00 in node 33 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001546
+ time avg. flux= 0.001695
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117501e+00
+ largest correction to temp= 1.973576e-13 in node 31 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 18 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=3.400000e-04
+ actual step time=3.600000e-04
+ actual total time=3.600000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001527
+ time avg. flux= 0.001686
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001527
+ time avg. flux= 0.001686
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.472813e-13 in node 16 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 19 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=3.600000e-04
+ actual step time=3.800000e-04
+ actual total time=3.800000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001509
+ time avg. flux= 0.001676
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 31 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001509
+ time avg. flux= 0.001676
+ largest residual flux= 0.000000 in node 22 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.976310e-13 in node 16 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 20 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=3.800000e-04
+ actual step time=4.000000e-04
+ actual total time=4.000000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001490
+ time avg. flux= 0.001667
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 29 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001490
+ time avg. flux= 0.001667
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.313312e-13 in node 34 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 21 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=4.000000e-04
+ actual step time=4.200000e-04
+ actual total time=4.200000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001471
+ time avg. flux= 0.001658
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001471
+ time avg. flux= 0.001658
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.392793e-13 in node 29 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 22 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=4.200000e-04
+ actual step time=4.400000e-04
+ actual total time=4.400000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001453
+ time avg. flux= 0.001648
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001453
+ time avg. flux= 0.001648
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.215797e-13 in node 20 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 23 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=4.400000e-04
+ actual step time=4.600000e-04
+ actual total time=4.600000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001434
+ time avg. flux= 0.001639
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 31 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001434
+ time avg. flux= 0.001639
+ largest residual flux= 0.000000 in node 26 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.707393e-13 in node 31 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 24 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=4.600000e-04
+ actual step time=4.800000e-04
+ actual total time=4.800000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001416
+ time avg. flux= 0.001630
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001416
+ time avg. flux= 0.001630
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.575160e-13 in node 21 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 25 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=4.800000e-04
+ actual step time=5.000000e-04
+ actual total time=5.000000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001397
+ time avg. flux= 0.001620
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 33 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001397
+ time avg. flux= 0.001620
+ largest residual flux= 0.000000 in node 24 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.776687e-13 in node 27 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 26 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=5.000000e-04
+ actual step time=5.200000e-04
+ actual total time=5.200000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001378
+ time avg. flux= 0.001611
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001378
+ time avg. flux= 0.001611
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.926889e-13 in node 23 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 27 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=5.200000e-04
+ actual step time=5.400000e-04
+ actual total time=5.400000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001360
+ time avg. flux= 0.001602
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 30 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001360
+ time avg. flux= 0.001602
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.057846e-13 in node 19 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 28 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=5.400000e-04
+ actual step time=5.600000e-04
+ actual total time=5.600000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001341
+ time avg. flux= 0.001592
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 30 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001341
+ time avg. flux= 0.001592
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.107274e-13 in node 19 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 29 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=5.600000e-04
+ actual step time=5.800000e-04
+ actual total time=5.800000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001322
+ time avg. flux= 0.001583
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 32 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001322
+ time avg. flux= 0.001583
+ largest residual flux= 0.000000 in node 29 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.759961e-13
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 30 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=5.800000e-04
+ actual step time=6.000000e-04
+ actual total time=6.000000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001304
+ time avg. flux= 0.001574
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 29 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001304
+ time avg. flux= 0.001574
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.896617e-13 in node 29 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 31 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=6.000000e-04
+ actual step time=6.200000e-04
+ actual total time=6.200000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001285
+ time avg. flux= 0.001565
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001285
+ time avg. flux= 0.001565
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.123530e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 32 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=6.200000e-04
+ actual step time=6.400000e-04
+ actual total time=6.400000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001266
+ time avg. flux= 0.001555
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001266
+ time avg. flux= 0.001555
+ largest residual flux= 0.000000 in node 22 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.962604e-13 in node 35 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 33 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=6.400000e-04
+ actual step time=6.600000e-04
+ actual total time=6.600000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001248
+ time avg. flux= 0.001546
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001248
+ time avg. flux= 0.001546
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.763999e-13 in node 19 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 34 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=6.600000e-04
+ actual step time=6.800000e-04
+ actual total time=6.800000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001229
+ time avg. flux= 0.001537
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001229
+ time avg. flux= 0.001537
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.016623e-13
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 35 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=6.800000e-04
+ actual step time=7.000000e-04
+ actual total time=7.000000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001211
+ time avg. flux= 0.001527
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 32 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001211
+ time avg. flux= 0.001527
+ largest residual flux= 0.000000 in node 31 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.478786e-13 in node 25 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 36 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=7.000000e-04
+ actual step time=7.200000e-04
+ actual total time=7.200000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001192
+ time avg. flux= 0.001518
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001192
+ time avg. flux= 0.001518
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.233348e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 37 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=7.200000e-04
+ actual step time=7.400000e-04
+ actual total time=7.400000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001173
+ time avg. flux= 0.001509
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 29 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001173
+ time avg. flux= 0.001509
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.035556e-13 in node 16 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 38 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=7.400000e-04
+ actual step time=7.600000e-04
+ actual total time=7.600000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001155
+ time avg. flux= 0.001499
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 30 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001155
+ time avg. flux= 0.001499
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.634872e-13
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 39 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=7.600000e-04
+ actual step time=7.800000e-04
+ actual total time=7.800000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001136
+ time avg. flux= 0.001490
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001136
+ time avg. flux= 0.001490
+ largest residual flux= 0.000000 in node 24 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.411575e-13 in node 24 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 40 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=7.800000e-04
+ actual step time=8.000000e-04
+ actual total time=8.000000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001117
+ time avg. flux= 0.001481
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001117
+ time avg. flux= 0.001481
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.154743e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 41 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=8.000000e-04
+ actual step time=8.200000e-04
+ actual total time=8.200000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001099
+ time avg. flux= 0.001471
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 30 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001099
+ time avg. flux= 0.001471
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.641636e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 42 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=8.200000e-04
+ actual step time=8.400000e-04
+ actual total time=8.400000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001080
+ time avg. flux= 0.001462
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001080
+ time avg. flux= 0.001462
+ largest residual flux= 0.000000 in node 31 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.576663e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 43 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=8.400000e-04
+ actual step time=8.600000e-04
+ actual total time=8.600000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001062
+ time avg. flux= 0.001453
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001062
+ time avg. flux= 0.001453
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.114736e-13 in node 30 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 44 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=8.600000e-04
+ actual step time=8.800000e-04
+ actual total time=8.800000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001043
+ time avg. flux= 0.001443
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 33 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001043
+ time avg. flux= 0.001443
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.506783e-13 in node 21 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 45 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=8.800000e-04
+ actual step time=9.000000e-04
+ actual total time=9.000000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001024
+ time avg. flux= 0.001434
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001024
+ time avg. flux= 0.001434
+ largest residual flux= 0.000000 in node 17 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.402974e-13 in node 36 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 46 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=9.000000e-04
+ actual step time=9.200000e-04
+ actual total time=9.200000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001006
+ time avg. flux= 0.001425
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.001006
+ time avg. flux= 0.001425
+ largest residual flux= 0.000000 in node 24 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.408446e-13 in node 16 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 47 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=9.200000e-04
+ actual step time=9.400000e-04
+ actual total time=9.400000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000987
+ time avg. flux= 0.001415
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 33 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000987
+ time avg. flux= 0.001415
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.595904e-13 in node 34 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 48 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=9.400000e-04
+ actual step time=9.600000e-04
+ actual total time=9.600000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000968
+ time avg. flux= 0.001406
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000968
+ time avg. flux= 0.001406
+ largest residual flux= 0.000000 in node 24 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.067958e-13 in node 26 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 49 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=9.600000e-04
+ actual step time=9.800000e-04
+ actual total time=9.800000e-04
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000950
+ time avg. flux= 0.001397
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000950
+ time avg. flux= 0.001397
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.248199e-13 in node 16 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 50 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=9.800000e-04
+ actual step time=1.000000e-03
+ actual total time=1.000000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000931
+ time avg. flux= 0.001388
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000931
+ time avg. flux= 0.001388
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 3.052147e-13 in node 27 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 51 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.000000e-03
+ actual step time=1.020000e-03
+ actual total time=1.020000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000913
+ time avg. flux= 0.001378
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 33 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000913
+ time avg. flux= 0.001378
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.396304e-13 in node 27 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 52 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.020000e-03
+ actual step time=1.040000e-03
+ actual total time=1.040000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000894
+ time avg. flux= 0.001369
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 29 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000894
+ time avg. flux= 0.001369
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.794560e-13 in node 34 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 53 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.040000e-03
+ actual step time=1.060000e-03
+ actual total time=1.060000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000875
+ time avg. flux= 0.001360
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000875
+ time avg. flux= 0.001360
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.980994e-13 in node 34 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 54 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.060000e-03
+ actual step time=1.080000e-03
+ actual total time=1.080000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000857
+ time avg. flux= 0.001350
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000857
+ time avg. flux= 0.001350
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.773799e-13 in node 19 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 55 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.080000e-03
+ actual step time=1.100000e-03
+ actual total time=1.100000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000838
+ time avg. flux= 0.001341
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000838
+ time avg. flux= 0.001341
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.111401e-13 in node 16 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 56 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.100000e-03
+ actual step time=1.120000e-03
+ actual total time=1.120000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000820
+ time avg. flux= 0.001332
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000820
+ time avg. flux= 0.001332
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.627100e-13 in node 34 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 57 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.120000e-03
+ actual step time=1.140000e-03
+ actual total time=1.140000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000801
+ time avg. flux= 0.001322
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000801
+ time avg. flux= 0.001322
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.605551e-13 in node 16 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 58 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.140000e-03
+ actual step time=1.160000e-03
+ actual total time=1.160000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000782
+ time avg. flux= 0.001313
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000782
+ time avg. flux= 0.001313
+ largest residual flux= 0.000000 in node 13 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.055340e-13
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 59 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.160000e-03
+ actual step time=1.180000e-03
+ actual total time=1.180000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000764
+ time avg. flux= 0.001304
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 32 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000764
+ time avg. flux= 0.001304
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.534230e-13 in node 17 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 60 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.180000e-03
+ actual step time=1.200000e-03
+ actual total time=1.200000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000745
+ time avg. flux= 0.001294
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000745
+ time avg. flux= 0.001294
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.722986e-13 in node 21 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 61 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.200000e-03
+ actual step time=1.220000e-03
+ actual total time=1.220000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000726
+ time avg. flux= 0.001285
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000726
+ time avg. flux= 0.001285
+ largest residual flux= 0.000000 in node 26 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.077321e-13 in node 19 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 62 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.220000e-03
+ actual step time=1.240000e-03
+ actual total time=1.240000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000708
+ time avg. flux= 0.001276
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000708
+ time avg. flux= 0.001276
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.811312e-13 in node 16 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 63 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.240000e-03
+ actual step time=1.260000e-03
+ actual total time=1.260000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000689
+ time avg. flux= 0.001266
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 31 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000689
+ time avg. flux= 0.001266
+ largest residual flux= 0.000000 in node 26 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.770520e-13 in node 34 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 64 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.260000e-03
+ actual step time=1.280000e-03
+ actual total time=1.280000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000670
+ time avg. flux= 0.001257
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000670
+ time avg. flux= 0.001257
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.913085e-13 in node 36 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 65 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.280000e-03
+ actual step time=1.300000e-03
+ actual total time=1.300000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000652
+ time avg. flux= 0.001248
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000652
+ time avg. flux= 0.001248
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.538318e-13 in node 16 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 66 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.300000e-03
+ actual step time=1.320000e-03
+ actual total time=1.320000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000633
+ time avg. flux= 0.001239
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000633
+ time avg. flux= 0.001239
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.846367e-13 in node 18 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 67 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.320000e-03
+ actual step time=1.340000e-03
+ actual total time=1.340000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000615
+ time avg. flux= 0.001229
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 31 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000615
+ time avg. flux= 0.001229
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.984240e-13 in node 11 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 68 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.340000e-03
+ actual step time=1.360000e-03
+ actual total time=1.360000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000596
+ time avg. flux= 0.001220
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000596
+ time avg. flux= 0.001220
+ largest residual flux= 0.000000 in node 12 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.753441e-13 in node 18 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 69 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.360000e-03
+ actual step time=1.380000e-03
+ actual total time=1.380000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000577
+ time avg. flux= 0.001211
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000577
+ time avg. flux= 0.001211
+ largest residual flux= 0.000000 in node 31 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.538879e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 70 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.380000e-03
+ actual step time=1.400000e-03
+ actual total time=1.400000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000559
+ time avg. flux= 0.001201
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000559
+ time avg. flux= 0.001201
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.450535e-13 in node 27 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 71 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.400000e-03
+ actual step time=1.420000e-03
+ actual total time=1.420000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000540
+ time avg. flux= 0.001192
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 30 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000540
+ time avg. flux= 0.001192
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.943853e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 72 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.420000e-03
+ actual step time=1.440000e-03
+ actual total time=1.440000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000522
+ time avg. flux= 0.001183
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000522
+ time avg. flux= 0.001183
+ largest residual flux= 0.000000 in node 17 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.978979e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 73 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.440000e-03
+ actual step time=1.460000e-03
+ actual total time=1.460000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000503
+ time avg. flux= 0.001173
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000503
+ time avg. flux= 0.001173
+ largest residual flux= 0.000000 in node 17 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.131511e-13 in node 21 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 74 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.460000e-03
+ actual step time=1.480000e-03
+ actual total time=1.480000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000484
+ time avg. flux= 0.001164
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 30 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000484
+ time avg. flux= 0.001164
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.535876e-13 in node 16 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 75 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.480000e-03
+ actual step time=1.500000e-03
+ actual total time=1.500000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000466
+ time avg. flux= 0.001155
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 29 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000466
+ time avg. flux= 0.001155
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.923293e-13 in node 25 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 76 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.500000e-03
+ actual step time=1.520000e-03
+ actual total time=1.520000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000447
+ time avg. flux= 0.001145
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 32 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000447
+ time avg. flux= 0.001145
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.823240e-13 in node 11 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 77 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.520000e-03
+ actual step time=1.540000e-03
+ actual total time=1.540000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000428
+ time avg. flux= 0.001136
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 29 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000428
+ time avg. flux= 0.001136
+ largest residual flux= 0.000000 in node 24 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.711642e-13 in node 15 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 78 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.540000e-03
+ actual step time=1.560000e-03
+ actual total time=1.560000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000410
+ time avg. flux= 0.001127
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000410
+ time avg. flux= 0.001127
+ largest residual flux= 0.000000 in node 35 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.401977e-13 in node 20 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 79 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.560000e-03
+ actual step time=1.580000e-03
+ actual total time=1.580000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000391
+ time avg. flux= 0.001117
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000391
+ time avg. flux= 0.001117
+ largest residual flux= 0.000000 in node 29 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.526307e-13 in node 25 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 80 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.580000e-03
+ actual step time=1.600000e-03
+ actual total time=1.600000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000373
+ time avg. flux= 0.001108
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 29 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000373
+ time avg. flux= 0.001108
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.816156e-13 in node 19 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 81 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.600000e-03
+ actual step time=1.620000e-03
+ actual total time=1.620000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000354
+ time avg. flux= 0.001099
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000354
+ time avg. flux= 0.001099
+ largest residual flux= 0.000000 in node 31 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.825019e-13 in node 18 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 82 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.620000e-03
+ actual step time=1.640000e-03
+ actual total time=1.640000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000335
+ time avg. flux= 0.001090
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 31 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000335
+ time avg. flux= 0.001090
+ largest residual flux= 0.000000 in node 28 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.537097e-13 in node 18 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 83 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.640000e-03
+ actual step time=1.660000e-03
+ actual total time=1.660000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000317
+ time avg. flux= 0.001080
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 36 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000317
+ time avg. flux= 0.001080
+ largest residual flux= 0.000000 in node 33 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.860646e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 84 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.660000e-03
+ actual step time=1.680000e-03
+ actual total time=1.680000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000298
+ time avg. flux= 0.001071
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 33 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000298
+ time avg. flux= 0.001071
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.228878e-13 in node 19 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 85 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.680000e-03
+ actual step time=1.700000e-03
+ actual total time=1.700000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000279
+ time avg. flux= 0.001062
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 31 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000279
+ time avg. flux= 0.001062
+ largest residual flux= 0.000000 in node 15 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.507265e-13 in node 31 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 86 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.700000e-03
+ actual step time=1.720000e-03
+ actual total time=1.720000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000261
+ time avg. flux= 0.001052
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000261
+ time avg. flux= 0.001052
+ largest residual flux= 0.000000 in node 11 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.406322e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 87 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.720000e-03
+ actual step time=1.740000e-03
+ actual total time=1.740000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000242
+ time avg. flux= 0.001043
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000242
+ time avg. flux= 0.001043
+ largest residual flux= 0.000000 in node 28 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.128482e-13 in node 25 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 88 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.740000e-03
+ actual step time=1.760000e-03
+ actual total time=1.760000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000223
+ time avg. flux= 0.001034
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 31 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000223
+ time avg. flux= 0.001034
+ largest residual flux= 0.000000 in node 31 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.226244e-13 in node 20 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 89 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.760000e-03
+ actual step time=1.780000e-03
+ actual total time=1.780000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000205
+ time avg. flux= 0.001024
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000205
+ time avg. flux= 0.001024
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.001531e-13 in node 15 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 90 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.780000e-03
+ actual step time=1.800000e-03
+ actual total time=1.800000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000186
+ time avg. flux= 0.001015
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 31 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000186
+ time avg. flux= 0.001015
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.648632e-13 in node 34 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 91 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.800000e-03
+ actual step time=1.820000e-03
+ actual total time=1.820000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000168
+ time avg. flux= 0.001006
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000168
+ time avg. flux= 0.001006
+ largest residual flux= 0.000000 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.507835e-13 in node 21 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 92 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.820000e-03
+ actual step time=1.840000e-03
+ actual total time=1.840000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000149
+ time avg. flux= 0.000996
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000149
+ time avg. flux= 0.000996
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.393971e-13 in node 16 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 93 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.840000e-03
+ actual step time=1.860000e-03
+ actual total time=1.860000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000130
+ time avg. flux= 0.000987
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000130
+ time avg. flux= 0.000987
+ largest residual flux= 0.000000 in node 31 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.746668e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 94 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.860000e-03
+ actual step time=1.880000e-03
+ actual total time=1.880000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000112
+ time avg. flux= 0.000978
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000112
+ time avg. flux= 0.000978
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.076475e-13 in node 31 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 95 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.880000e-03
+ actual step time=1.900000e-03
+ actual total time=1.900000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000093
+ time avg. flux= 0.000968
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 28 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000093
+ time avg. flux= 0.000968
+ largest residual flux= 0.000000 in node 14 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.023246e-13
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 96 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.900000e-03
+ actual step time=1.920000e-03
+ actual total time=1.920000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000074
+ time avg. flux= 0.000959
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000074
+ time avg. flux= 0.000959
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.212616e-13 in node 19 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 97 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.920000e-03
+ actual step time=1.940000e-03
+ actual total time=1.940000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000056
+ time avg. flux= 0.000950
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000056
+ time avg. flux= 0.000950
+ largest residual flux= 0.000000 in node 28 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 3.595278e-13 in node 28 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 98 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.940000e-03
+ actual step time=1.960000e-03
+ actual total time=1.960000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000037
+ time avg. flux= 0.000941
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000037
+ time avg. flux= 0.000941
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.005785e-13 in node 27 and dof 0
+
+ convergence
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 99 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.960000e-03
+ actual step time=1.980000e-03
+ actual total time=1.980000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000019
+ time avg. flux= 0.000931
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 35 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000019
+ time avg. flux= 0.000931
+ largest residual flux= 0.000000 in node 23 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.219352e-13 in node 27 and dof 0
+
+ convergence
+
+ the increment size exceeds the remainder of the step and is decreased to 2.000000e-05
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ increment 100 attempt 1 
+ increment size= 2.000000e-05
+ sum of previous increments=1.980000e-03
+ actual step time=2.000000e-03
+ actual total time=2.000000e-03
+
+ iteration 1
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000012
+ time avg. flux= 0.000922
+ largest residual flux= 0.000059 in node 32 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 1.117500e+00 in node 34 and dof 0
+
+ no convergence
+
+ iteration 2
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using 1 cpu for spooles.
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+ average flux= 0.000012
+ time avg. flux= 0.000922
+ largest residual flux= 0.000000 in node 31 and dof 0
+ largest increment of temp= 1.117500e+00
+ largest correction to temp= 2.335641e-13 in node 28 and dof 0
+
+ convergence
+
+ the increment size exceeds the remainder of the step and is decreased to 0.000000e+00
+
+ Using up to 1 cpu(s) for the heat flux calculation.
+
+
+  The numbers below are estimated upper bounds
+
+  number of:
+
+   nodes:           45
+   elements:           16
+   one-dimensional elements:            0
+   two-dimensional elements:            0
+   integration points per element:            8
+   degrees of freedom per node:            3
+   layers per element:            1
+
+   distributed facial loads:            0
+   distributed volumetric loads:            0
+   concentrated loads:            0
+   single point constraints:           18
+   multiple point constraints:            1
+   terms in all multiple point constraints:            1
+   tie constraints:            0
+   dependent nodes tied by cyclic constraints:            0
+   dependent nodes in pre-tension constraints:            0
+
+   sets:            4
+   terms in all sets:          124
+
+   materials:            1
+   constants per material and temperature:            0
+   temperature points per material:            1
+   plastic data points per material:            0
+
+   orientations:            0
+   amplitudes:            3
+   data points in all amplitudes:            6
+   print requests:            1
+   transformations:            0
+   property cards:            0
+
+
+ STEP            1
+
+ Dynamic analysis was selected
+
+ Newton-Raphson iterative procedure is active
+
+
+ Job finished
+
+________________________________________
+
+Total CalculiX Time: 0.137419
+________________________________________

@@ -1,0 +1,16 @@
+archived_utc = "2026-10-22T15:22:40.712047+00:00"
+description = "Actual transient conduction output; 16 DC3D8 elements, 45 nodes; illustrative material"
+julia_version = "1.13.2"
+schema_version = 1
+solver = "CalculiX CrunchiX"
+solver_binary_sha256 = "31be21fc2f0902bd9a05acc2651dbac6dc2a2573dabbf235e39a38cb6f458862"
+solver_command = "ccx -i thermal"
+solver_version = "2.23"
+source_kind = "calculix"
+
+[sha256]
+"config.toml" = "af59b3223947d660228161f921be66e84a0e1c85cb6682dd06341ba893220094"
+"initial.toml" = "0424e459c71d9b2babe3e148f88777bb6e5dee5f01a5f4d910f85d0b5961c220"
+"mesh.toml" = "e66e17ccc7fcf998897c963597c92b9bcf6c51d65e4507cc4fab6608a4fd115d"
+"thermal.dat" = "655d807deab859852bcb91c04433ec3b5aef2a215d29f945cc84f70699ff120f"
+"thermal.inp" = "7928aee109e08e06964057a53c6b7f59a0d88d211216faabec8ae8d58f79cba0"

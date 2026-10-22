@@ -1,0 +1,52 @@
+name: Julia demo and regression tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        julia: ['1.10', '1']
+        threads: [1, 8]
+    steps:
+      - uses: actions/checkout@v6
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: ${{ matrix.julia }}
+      - name: Regression tests
+        run: julia --project=. --threads=${{ matrix.threads }},0 test/runtests.jl
+      - name: Saved FEM replay without solver
+        run: julia --project=. --threads=${{ matrix.threads }},0 examples/fem_replay/run.jl --resolution quick
+      - name: Prescribed directional cooling
+        run: julia --project=. --threads=${{ matrix.threads }},0 examples/directional_solidification/run.jl
+      - uses: actions/upload-artifact@v4
+        with:
+          name: demo-julia-${{ matrix.julia }}-threads-${{ matrix.threads }}
+          path: |
+            output/demo/
+            output/fem_replay/
+          if-no-files-found: error
+  real-solver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: '1'
+      - name: Install stock CalculiX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y calculix-ccx
+      - name: Require actual solver and replay agreement
+        env:
+          AM_TEST_CCX: '1'
+          CCX: ccx
+        run: julia --project=. --threads=1 test/runtests.jl
